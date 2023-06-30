@@ -1,0 +1,142 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@100;202;300;400;500;600;700;800&family=Open+Sans:wght@400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.main{
+    background: linear-gradient(rgba(61,98,108,0.6),rgba(61,98,108,0.6)), url("mbr.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    background:rgb(61, 98, 108);
+    position: sticky;
+    
+}
+.navbar a , .logo2{
+    font-family: 'EB Garamond', serif;
+    /* color: white; */
+    /* transition: .5s; */
+
+    
+}
+.navbar a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+#logo1{
+   
+   font-size: 40px;
+   font-weight: 600;
+   cursor: pointer;
+}
+#logo1:hover{
+    color: #a1abad;
+}
+.drm1 a:hover, .drm2 a:hover{
+    background-color: white;
+    color:#000000;
+
+
+}
+.drp1:hover .drm1{
+    margin-top: 15px;
+    display: block;
+}
+.drp2:hover .drm2{
+    margin-top: 15px;
+    display: block;
+}
+.display-7{
+    font-size: 1.2rem;
+}
+.btn{
+    padding:15px 30px;
+    /* font-size: 2rem; */
+    font-weight: 600;
+}
+section{
+    overflow: hidden;
+    
+}
+.navbar{
+    position:fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.c1{
+    background: #d7edd8;
+    padding: 32px;
+}
+.c2{
+    background: #FFF3F3;
+    padding: 32px;
+}
+
+.c3{
+    background: #eaf4f8;
+    padding: 32px;
+}
+
+.c4{
+    background: #FFF3F3;
+    padding: 32px;
+}
+.card-title{
+    font-family: 'EB Garamond', serif;
+    font-size: 35px;
+    color: #3d626c;
+    font-weight: 100;
+    padding: 0 0 12px;
+   
+    
+}
+.card-text{
+    text-align:left;
+    font-family: 'Open Sans', sans-serif;
+    color: #3d626c;
+    font-size: 19.2px;
+    padding-bottom: 30px;
+
+}
+.link{
+    color: #3d626c;
+    padding: 3.2px 0;
+    text-decoration: none;
+    border-bottom:2px solid #3d626c;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    
+}
+.link:hover{
+    color: #3d626c;
+    
+}
+.card-body:hover{
+    box-shadow: -1px 34px 27px -30px #000000;
+}
+.h5{
+    font-size: 51px;
+    text-align: right;
+    font-weight: 400;
+}
+.cp2{
+    color: #879a9f;
+}
+.heading2{
+    font-family: 'EB Garamond', serif;
+    font-size: 52px;
+    font-weight: 500;
+    color:#3d626c;
+
+}
+.section3{
+    background-color: #fff3f3;
+}
+.card-img img{
+    position: relative;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
