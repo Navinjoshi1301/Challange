@@ -134,9 +134,19 @@ section{
 .section3{
     background-color: #fff3f3;
 }
+.img2{
+    background-color: #fff3f3;
+}
 .card-img img{
     position: relative;
     height: 100%;
     object-fit: cover;
     width: 100%;
+}
+.card-text h4{
+    font-weight: 500;
+}
+.card-text p{
+    
+    color: #879a9f;
 }
